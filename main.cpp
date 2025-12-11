@@ -45,10 +45,10 @@ int main() {
     vector<int> v(c), w(c);
 
     while (i<=c-1) {
-        v[i]=rand() % c*10+1;
-        w[i]=rand() % c*10;
+        v[i]=rand() % (c*10)+1;
+        w[i]=rand() % (c*10)+1;
 
-        i=i++;
+        i++;
     }
 
     ordina(c, v);
